@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>User Registration</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="first">First Name:</label>
+            <input type="text" id="first" name="first" value="Justina"><br>
+
+            <label for="last">Last Name:</label>
+            <input type="text" id="last" name="last" value="Dotson"><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" value="41"><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option>Female</option>
+                <option selected>Male</option>
+                <option>Other</option>
+            </select><br>
+
+            <label for="photo">Profile Picture:</label>
+            <input type="file" id="photo" name="photo"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Account Details</legend>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="buzepi@mailinator.com"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="password"><br>
+
+            <span>Role:</span>
+            <input type="radio" id="role-admin" name="role" value="admin">
+            <label for="role-admin">Admin</label>
+            <input type="radio" id="role-user" name="role" value="user" checked>
+            <label for="role-user">User</label>
+        </fieldset>
+
+        <p>
+            <input type="checkbox" id="agree" name="agree" checked>
+            <label for="agree">I agree to the terms and conditions</label>
+        </p>
+
+        <p>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+</html>

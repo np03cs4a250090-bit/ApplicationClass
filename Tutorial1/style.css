@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fafafa;
+    color: #222;
+}
+
+a {
+    color: rgb(35, 100, 220);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#introduction {
+    background-color: rgb(242, 184, 184);
+    color: rgb(137, 37, 37);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 6px solid rgb(35, 100, 220);
+    border-radius: 0.25rem;
+}
+
+#relative {
+    background-color: rgb(255, 242, 204);
+    color: rgb(74, 63, 8);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 6px solid rgb(35, 100, 220);
+    border-radius: 0.25rem;
+}
